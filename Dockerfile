@@ -1,4 +1,5 @@
-FROM gcc:4.9
+FROM nimbix/ubuntu-cuda-ppc64le:latest
+# FROM gcc:4.9
 WORKDIR /HelloWorld
 ADD . /HelloWorld
 RUN g++ -o HelloWorld HelloWorld.cpp
