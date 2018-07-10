@@ -7,4 +7,5 @@ RUN g++ -o HelloWorld HelloWorld.cpp
 RUN curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/nimbix/image-common/master/install-nimbix.sh | bash
 # Expose port 22 for local JARVICE emulation in docker
 EXPOSE 22
-CMD ["./HelloWorld"]
+CMD ["./HelloWorld > /tmp/jt.out"]
+
