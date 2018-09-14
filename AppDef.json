@@ -16,9 +16,6 @@
         "BLOCK_ARRAY", 
         "OBJECT"
     ], 
-    "vault": {
-      "*"
-    },
     "commands": {
         "run": {
             "path": "/usr/bin/env", 
