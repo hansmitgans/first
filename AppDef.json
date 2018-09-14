@@ -1,5 +1,4 @@
 {
-
     "name": "Jonas Ubuntu Linux for POWER8", 
     "description": "Ubuntu Linux ephemeral environment on POWER8 system with NVIDIA CUDA toolkit.", 
     "author": "Nimbix, Inc.", 
@@ -18,9 +17,7 @@
         "OBJECT"
     ], 
     "vault": {
-      "name": "shared",
-      "force": false,
-      "readonly": false
+      "*"
     },
     "commands": {
         "run": {
