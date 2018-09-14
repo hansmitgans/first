@@ -17,6 +17,11 @@
         "BLOCK_ARRAY", 
         "OBJECT"
     ], 
+    "vault": {
+      "name": "shared",
+      "force": false,
+      "readonly": false
+    },
     "commands": {
         "run": {
             "path": "/usr/bin/env", 
